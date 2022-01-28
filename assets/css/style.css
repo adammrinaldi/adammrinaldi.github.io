@@ -690,7 +690,8 @@ ul.caption-slides li {
 
 .big-title-sec {
   text-align: center;
-  padding-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 
 .big-title-sec hr {
@@ -1997,6 +1998,8 @@ ul.features-list li {
 
 .offer-post {
   padding: 30px 0;
+  width: 360px;
+  height: 500px;
 }
 
 .offer-post h4 {
@@ -2019,12 +2022,22 @@ ul.features-list li {
 .card {
   /* box-shadow: 4px 4px 1px #fc6e51; */
   transition: 0.3s;
+  /* background-color: red; */
 }
 
 .card:hover {
   cursor: pointer;
   transform: scale(1.02);
   transition: 0.3s cubic-bezier(0.6, 0.3, 0.28, 0.98);
+}
+
+.butt {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 #screenshots-section .title-section {
